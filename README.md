@@ -16,7 +16,7 @@ Follow these steps to set up the project on your local machine.
 
 #### Option 1: Automated Setup (Windows - Recommended)
 
-For Windows users, use the automated setup script:
+For Windows users, **you must run the automated setup script once before using `run-tests-menu.bat`**:
 
 ```bash
 setup.bat
@@ -60,7 +60,9 @@ URL_AUDIT_URL=https://example.com/
 
 ### Quick Start
 
-Once setup is complete, you can immediately run tests:
+Once setup is complete, you can immediately run tests.
+
+> **Important:** On a **new machine** (or fresh clone), run `setup.bat` first to install dependencies and Playwright browsers **before** using `run-tests-menu.bat`.
 
 **Windows users:**
 ```bash

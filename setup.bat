@@ -21,8 +21,9 @@ echo.
 echo ========================================
 echo   Playwright Test Setup
 echo ========================================
-echo   This script will set up everything needed
-echo   for running Playwright tests on this device
+echo   This script MUST be run at least once
+echo   BEFORE using run-tests-menu.bat on this
+echo   device (especially on first setup).
 echo ========================================
 echo.
 

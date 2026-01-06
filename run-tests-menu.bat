@@ -3,6 +3,8 @@ REM ========================================
 REM   Playwright Test Runner - Menu
 REM ========================================
 REM Unified test runner with interactive menu
+REM IMPORTANT: Run setup.bat once BEFORE using this menu on a new machine
+REM to install npm dependencies and Playwright browsers.
 REM ========================================
 
 setlocal enabledelayedexpansion
