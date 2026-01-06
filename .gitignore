@@ -1,0 +1,67 @@
+#############################
+# Dependencies
+#############################
+/node_modules/
+
+#############################
+# Environment variables (security - contains sensitive data)
+#############################
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+
+#############################
+# Test output & reports (can contain URLs, HTML content, screenshots, traces)
+#############################
+/test-results/
+/test-results.json
+/playwright-report/
+/playwright-report-temp-*/
+/blob-report/
+/blob-reports/
+/playwright/.cache/
+/playwright/.auth/
+
+#############################
+# URL lists / config files (often contain private targets)
+#############################
+urls.txt
+*.test-urls.txt
+test-urls*.txt
+
+#############################
+# GitHub Pages reports (HTML artifacts for sharing)
+#############################
+/gh-pages-reports/
+
+#############################
+# Logs, coverage, and temp files
+#############################
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+coverage/
+.nyc_output/
+*.tmp
+*.temp
+*.bak
+*.orig
+
+#############################
+# IDE and editor files
+#############################
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+#############################
+# OS files
+#############################
+.DS_Store
+Thumbs.db
